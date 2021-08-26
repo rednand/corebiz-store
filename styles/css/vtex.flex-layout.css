@@ -1,0 +1,12 @@
+.flexColChild--product-main {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.flexRow--product-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 30px;    
+}
