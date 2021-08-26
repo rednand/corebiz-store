@@ -33,3 +33,11 @@
 :global(.vtex-menu-2-x-menuContainerNav--custom-item-menu){
   padding: 0 20px;
 }
+
+ .productDescriptionContainer--description {
+    max-width: 350px;
+}
+
+.productDescriptionText--description {
+    color: white;
+}
