@@ -1,7 +1,10 @@
 .infoCardContainer--customCardInfo{
   border:none;
   color:#fff!important;
-  font-size: 4.5rem;
+}
+.infoCardHeadline--customCardInfo{
+  font-size: 5.5rem;
+  max-width: 500px;
 }
 
 .imageElement--img-footer{
