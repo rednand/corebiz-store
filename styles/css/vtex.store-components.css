@@ -6,3 +6,12 @@
 .imageElement--img-footer{
   width: 100%
 }
+
+:global(.vtex-store-link-0-x-link--customLink){
+  text-decoration: none;
+  color: #f1c233;
+  border: 1px solid #f1c233;
+  max-width: 250px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
