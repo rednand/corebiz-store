@@ -13,11 +13,17 @@
 
 :global(.vtex-store-link-0-x-link--customLink){
   text-decoration: none;
-  color: #f1c233;
+  color: #000;
+  background-color:#f1c233;
   border: 1px solid #f1c233;
   max-width: 250px;
   border-radius: 5px;
   padding: 10px 0;
+}
+:global(.vtex-store-link-0-x-link--customLink):hover{
+  background-color: transparent;
+  color: #FFF;
+  background-color:#1b2429;
 }
 
 :global(.vtex-store-components-3-x-logoImage){
