@@ -6,13 +6,16 @@
         "rich-text#about-content-achievements-prizes"
         ],
       "props": {
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "blockClass": "about-content"
       }
     },
     
     "rich-text#about-title-achievements-prizes": {
       "props": {
-        "text": "# Prizes"
+        "text": "# Prizes",
+        "blockClass": "about-content"
+        
       }
     },
     

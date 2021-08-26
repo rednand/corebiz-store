@@ -6,7 +6,8 @@
         "rich-text#about-content-achievements-customers-served"
         ],
       "props": {
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "blockClass": "about-content"
       }
     },
     

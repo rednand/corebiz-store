@@ -4,7 +4,7 @@
     "children": ["rich-text#about-title-values", "rich-text#about-content-values"],
     "props": {
       "preventVerticalStretch": true,
-      "blockClass": "about-content-02"
+      "blockClass": "about-content"
     }
   },
   

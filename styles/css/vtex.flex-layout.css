@@ -1,10 +1,8 @@
-.flexCol--about-content-01 {
+.flexCol--about-content {
   padding: 60px;
 }
-.flexCol--about-content-02 {
-  padding: 60px;
-}
-.flexCol--about-content-03 {
+
+.flexCol--about-content-border {
   padding: 60px;
   border-left: 1px solid #f5f5f5;
   border-right: 1px solid #f5f5f5;

@@ -6,13 +6,15 @@
         "rich-text#about-content-achievements-since"
         ],
       "props": {
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "blockClass": "about-content-border"
       }
     },
     
     "rich-text#about-title-achievements-since": {
       "props": {
-        "text": "# Since"
+        "text": "# Since",
+        "blockClass": "about-content"
       }
     },
     

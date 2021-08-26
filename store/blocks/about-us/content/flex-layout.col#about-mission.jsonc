@@ -4,7 +4,7 @@
     "children": ["rich-text#about-title-mission", "rich-text#about-content-mission"],
     "props": {
       "preventVerticalStretch": true,
-      "blockClass": "about-content-01"
+      "blockClass": "about-content"
     }
   },
   
