@@ -3,19 +3,21 @@
   "flex-layout.col#text-about-mission": {
     "children": ["rich-text#about-title-mission", "rich-text#about-content-mission"],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "about-content-01"
     }
   },
   
   "rich-text#about-title-mission": {
     "props": {
-      "text": "# Mission"
+      "text": "# Mission",
+      "blockClass": "about-content-01"
     }
   },
   
   "rich-text#about-content-mission": {
     "props": {
-      "text": "This mission here"
+      "text": "Offer complete solutions in digital marketing focused on Omnichannel and Omnicontext."
     }
   }
 }

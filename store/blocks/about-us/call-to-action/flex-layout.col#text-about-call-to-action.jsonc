@@ -14,10 +14,16 @@
       "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Call to action",
+      "subhead":"A Corebiz atua em toda jornada digital do usuário. Desde a configuração de plataformas, implementações e integrações, até a entrega de uma excelente experiência de consumo.",
       "callToActionText": "ACTION",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#about-call-to-action": {
+    "props": {
+      "text": "Offer complete solutions in digital marketing focused on Omnichannel and Omnicontext."
     }
   }
 }

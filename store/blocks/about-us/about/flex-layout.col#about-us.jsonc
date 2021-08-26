@@ -1,0 +1,18 @@
+{
+  "flex-layout.col#about-us": {
+    "children": ["rich-text#about-us-title", "rich-text#about-us-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#about-us-title": {
+    "props": {
+      "text": "# Hello, we are Corebiz"
+    }
+  },
+  "rich-text#about-us-content": {
+    "props": {
+      "text": " Specialized in offering complete solutions in digital marketing focused on Omnichannel & Omnicontext, CoreBiz stands out as one of the largest e-commerce agencies in Brazil and has the mission to continuously monetize its customers' businesses, through a single, based strategy 100% in Cognitive Marketing."
+    }
+  }
+}

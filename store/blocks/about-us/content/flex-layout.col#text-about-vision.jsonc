@@ -3,19 +3,21 @@
   "flex-layout.col#text-about-vision": {
     "children": ["rich-text#about-title-vision", "rich-text#about-content-vision"],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "about-content-03"
     }
   },
   
   "rich-text#about-title-vision": {
     "props": {
-      "text": "# Vision"
+      "text": "# Vision",
+      "blockClass": "about-content-03"
     }
   },
   
   "rich-text#about-content-vision": {
     "props": {
-      "text": "This vision here"
+      "text": "To be the largest company of experience, technology and marketing for commerce in Latin America."
     }
   }
 }

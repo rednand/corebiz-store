@@ -3,19 +3,22 @@
   "flex-layout.col#text-about-values": {
     "children": ["rich-text#about-title-values", "rich-text#about-content-values"],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "about-content-02"
     }
   },
   
   "rich-text#about-title-values": {
     "props": {
-      "text": "# Values"
+      "text": "# Values",
+      "blockClass": "about-content-02"
+      
     }
   },
   
   "rich-text#about-content-values": {
     "props": {
-      "text": "This values here"
+      "text": "\n * determination \n * innovation \n * courage \n * aglity \n * collaboration"
     }
   }
 }
