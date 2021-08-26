@@ -1,6 +1,6 @@
 {
-  "vendor": "hiringcoders202103",
-  "name": "appdouglas",
+  "vendor": "vtex",
+  "name": "minimumtheme",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
