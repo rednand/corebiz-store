@@ -98,7 +98,7 @@
     },
     "hover-background": {
       "action-primary": "#1b2429",
-      "action-secondary": "#dbe9fd",
+      "action-secondary": "#f1c233",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -222,7 +222,7 @@
     },
     "on": {
       "base": "#ffffff",
-      "base--inverted": "#1b2429",
+      "base--inverted": "#ffffff",
       "action-primary": "#1b2429",
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",
