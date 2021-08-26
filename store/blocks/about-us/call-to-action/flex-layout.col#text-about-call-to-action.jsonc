@@ -1,0 +1,23 @@
+{
+  //Call to action
+  "flex-layout.col#text-about-call-to-action": {
+    "children": ["info-card#about-call-to-action"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  
+  "info-card#about-call-to-action": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Call to action",
+      "callToActionText": "ACTION",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}

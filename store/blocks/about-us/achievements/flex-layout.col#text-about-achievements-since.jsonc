@@ -1,0 +1,24 @@
+{
+  //customers-since
+    "flex-layout.col#text-about-achievements-since": {
+      "children": [
+        "rich-text#about-title-about-achievements-since",
+        "rich-text#about-content-about-achievements-since"
+        ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    
+    "rich-text#about-title-about-achievements-since": {
+      "props": {
+        "text": "# Since"
+      }
+    },
+    
+    "rich-text#about-content-about-achievements-since": {
+      "props": {
+        "text": "desde 2003"
+      }
+    }
+}

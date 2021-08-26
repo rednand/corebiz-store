@@ -1,0 +1,24 @@
+{
+  //customers-served
+    "flex-layout.col#text-about-achievements-customers-served": {
+      "children": [
+        "rich-text#about-title-about-achievements-customers-served",
+        "rich-text#about-content-about-achievements-customers-served"
+        ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    
+    "rich-text#about-title-about-achievements-customers-served": {
+      "props": {
+        "text": "# Customers Served"
+      }
+    },
+    
+    "rich-text#about-content-about-achievements-customers-served": {
+      "props": {
+        "text": "maiss de 8000"
+      }
+    }
+}

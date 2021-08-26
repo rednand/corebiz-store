@@ -1,0 +1,21 @@
+{
+//mission
+  "flex-layout.col#text-about-mission": {
+    "children": ["rich-text#about-title-mission", "rich-text#about-content-mission"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  
+  "rich-text#about-title-mission": {
+    "props": {
+      "text": "# Mission"
+    }
+  },
+  
+  "rich-text#about-content-mission": {
+    "props": {
+      "text": "This mission here"
+    }
+  }
+}
