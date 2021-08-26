@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#banner": {
+    "children": [
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2"
+    ],
+    "props": {
+      "blockClass": "banner",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#banner1": {
+    "children": [
+      "info-card#rethink"
+    ]
+  },
+  "flex-layout.col#banner2": {
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "info-card#rethink": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "we are global.",
+      "callToActionText": "Discover",
+      "textPosition": "center",
+      "blockClass": "customCardInfo"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "maxHeight": "400px"
+    }
+  }
+}

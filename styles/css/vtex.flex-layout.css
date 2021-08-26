@@ -1,0 +1,10 @@
+.flexRow--banner{
+  display: flex;
+  align-items: center;
+  height: 600px;
+  border: none!important;
+  background-image: url(assets/images/bg-map.png);
+  background-size: cover;
+
+}
+
