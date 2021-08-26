@@ -1,6 +1,6 @@
 {
 //mission
-  "flex-layout.col#text-about-mission": {
+  "flex-layout.col#about-mission": {
     "children": ["rich-text#about-title-mission", "rich-text#about-content-mission"],
     "props": {
       "preventVerticalStretch": true,

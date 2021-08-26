@@ -1,6 +1,6 @@
 {
 //vision
-  "flex-layout.col#text-about-vision": {
+  "flex-layout.col#about-vision": {
     "children": ["rich-text#about-title-vision", "rich-text#about-content-vision"],
     "props": {
       "preventVerticalStretch": true,

@@ -1,6 +1,6 @@
 {
   //Call to action
-  "flex-layout.col#text-about-call-to-action": {
+  "flex-layout.col#about-call-to-action": {
     "children": ["info-card#about-call-to-action"],
     "props": {
       "preventVerticalStretch": true

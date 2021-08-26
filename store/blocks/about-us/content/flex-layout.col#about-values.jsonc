@@ -1,6 +1,6 @@
 {
 //values
-  "flex-layout.col#text-about-values": {
+  "flex-layout.col#about-values": {
     "children": ["rich-text#about-title-values", "rich-text#about-content-values"],
     "props": {
       "preventVerticalStretch": true,

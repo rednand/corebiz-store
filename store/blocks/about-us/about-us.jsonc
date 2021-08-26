@@ -14,23 +14,23 @@
 
   "flex-layout.row#content": {
     "children": [
-      "flex-layout.col#text-about-mission",
-      "flex-layout.col#text-about-vision",
-      "flex-layout.col#text-about-values"
+      "flex-layout.col#about-mission",
+      "flex-layout.col#about-vision",
+      "flex-layout.col#about-values"
     ]
   },
 
   "flex-layout.row#about-call-to-action": {
     "children": [
-      "flex-layout.col#text-about-call-to-action"
+      "flex-layout.col#about-call-to-action"
     ]
   },
 
   "flex-layout.row#about-achievements": {
     "children": [
-      "flex-layout.col#text-about-achievements-customers-served",
-      "flex-layout.col#text-about-achievements-since",
-      "flex-layout.col#text-about-achievements-prizes"
+      "flex-layout.col#about-achievements-customers-served",
+      "flex-layout.col#about-achievements-since",
+      "flex-layout.col#about-achievements-prizes"
     ]
   }
 }

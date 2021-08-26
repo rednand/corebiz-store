@@ -1,0 +1,24 @@
+{
+  //prizes
+    "flex-layout.col#about-achievements-prizes": {
+      "children": [
+        "rich-text#about-title-achievements-prizes",
+        "rich-text#about-content-achievements-prizes"
+        ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    
+    "rich-text#about-title-achievements-prizes": {
+      "props": {
+        "text": "# Prizes"
+      }
+    },
+    
+    "rich-text#about-content-achievements-prizes": {
+      "props": {
+        "text": "Prêmios conquistados"
+      }
+    }
+}
