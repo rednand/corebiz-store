@@ -15,3 +15,7 @@
   border-radius: 5px;
   padding: 10px 0;
 }
+
+:global(.vtex-store-components-3-x-logoImage){
+  width: 110px;
+}
