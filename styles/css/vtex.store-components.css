@@ -1,6 +1,7 @@
 .infoCardContainer--customCardInfo{
   border:none;
   color:#fff!important;
+  font-size: 4.5rem;
 }
 
 .imageElement--img-footer{
@@ -18,4 +19,8 @@
 
 :global(.vtex-store-components-3-x-logoImage){
   width: 110px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--custom-item-menu){
+  padding: 0 20px;
 }

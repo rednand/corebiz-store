@@ -1,192 +1,106 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#footer-brasil": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "rich-text#brasil",
+      "rich-text#brEnd1",
+      "rich-text#brEnd2"
     ]
   },
-  "menu-item#news": {
-    "props": {
-      "id": "menu-item-news",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
-      }
-    }
+  
+  "rich-text#brasil": { 
+    "props": { 
+      "text": "Brasil", 
+      "blockClass": "footer-custom-title" 
+    } 
   },
-  "menu-item#blackfriday": {
-    "props": {
-      "id": "menu-item-black-friday",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
-      }
-    }
+  "rich-text#brEnd1": { 
+    "props": { 
+      "text": "Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP", 
+      "blockClass": "footer-custom-text" 
+    } 
   },
-  "menu-item#sale": {
-    "props": {
-      "id": "menu-item-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    }
-  },
-  "menu-item#personalization": {
-    "props": {
-      "id": "menu-item-personalization",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
-    }
+  "rich-text#brEnd2": { 
+    "props": { 
+      "text": "R. Ifigenia Maria de Oliveira, 3793 - Jr.\n Piratininga Franca SP", 
+      "blockClass": "footer-custom-text" 
+    } 
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
+
+  "vtex.menu@2.x:menu#footer-argentina": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "rich-text#argentina",
+      "rich-text#argEnd1"
     ]
   },
 
-  "menu-item#smartphones": {
-    "props": {
-      "id": "menu-item-smartphones",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/smartphones",
-        "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
-      }
-    }
+  "rich-text#argentina": { 
+    "props": { 
+      "text": "Argentina", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#argEnd1": { 
+    "props": { 
+      "text": "Soler 5518, 3 Piso C1425BYF \nPalermo Hollywood CABA", 
+      "blockClass": "footer-custom-text" 
+    } 
   },
 
-  "menu-item#videogames": {
+  "vtex.menu@2.x:menu#footer-mexico": {
     "props": {
-      "id": "menu-item-videogames",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
-    }
-  },
-
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "rich-text#mexico",
+      "rich-text#mexEnd1"
     ]
   },
 
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
+  "rich-text#mexico": { 
+    "props": { 
+      "text": "México", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#mexEnd1": { 
+    "props": { 
+      "text": "Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX", 
+      "blockClass": "footer-custom-text" 
+    } 
   },
 
-  "menu-item#backpacks": {
+  "vtex.menu@2.x:menu#footer-chile": {
     "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#chile",
+      "rich-text#chiEnd1"
+    ]
   },
 
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
+  "rich-text#chile": { 
+    "props": { 
+      "text": "Chile", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#chiEnd1": { 
+    "props": { 
+      "text": "Roberto del Río 1137, Providencia.", 
+      "blockClass": "footer-custom-text" 
+    } 
   },
 
   "vtex.menu@2.x:menu#footer-clothing": {
@@ -265,9 +179,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
     ]
   },
 
@@ -289,9 +200,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
     ]
   },
 
@@ -390,4 +298,6 @@
       }
     }
   }
+
+
 }

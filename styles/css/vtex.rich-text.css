@@ -8,3 +8,12 @@
   justify-content: center;
   margin: 100px 0;
 }
+
+.container--footer-custom-title{
+  font-weight: bold;
+  height: 40px;
+}
+
+.paragraph--footer-custom-text{
+  font-size: 0.8rem;
+}
