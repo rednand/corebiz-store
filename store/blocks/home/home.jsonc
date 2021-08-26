@@ -1,0 +1,67 @@
+{
+  "store.home": {
+    "blocks": [
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+       "flex-layout.row#banner",
+      // "__fold__.experimentalLazyAssets",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-space"
+      // "info-card#home",
+      // "rich-text#question",
+      // "rich-text#link",
+      // "newsletter"
+    ]
+  },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## NOSSOS SERVIÇOS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#shelf-space": {
+    "props": {
+      "text": "",
+      "blockClass": "shelfTitleBottom"
+    }
+  }
+
+}
