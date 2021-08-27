@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'CircularMdm';
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/fonts/CircularStd-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/roboto-v20-latin-500.woff") format("woff");
+}
