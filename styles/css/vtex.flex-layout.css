@@ -1,5 +1,15 @@
 .flexCol--about-content {
-  padding: 75px;
+  padding: 70px;
+}
+/*continuar Aqui*/
+.flexRow--about-call-to-action {
+  background-color: #000;
+  padding: 30px 0;
+}
+
+.flexRow--about-content-container {
+  padding: 180px 0;
+  background-color: #fff;
 }
 
 .flexRow--banner{

@@ -4,13 +4,14 @@
       "flex-layout.row#about-us",
       "flex-layout.row#content",
       "flex-layout.row#about-call-to-action",
+      "flex-layout.row#about-title-slider",
       "flex-layout.row#about-slider",
       "flex-layout.row#about-achievements"
     ]
   },
 
   "flex-layout.row#about-us": {
-    "children": ["image#about-us", "flex-layout.col#about-us"],
+    "children": ["flex-layout.col#about-us","image#about-us"],
     "props": {
       "blockClass": "about-call-to-action"
     }
@@ -21,7 +22,10 @@
       "flex-layout.col#about-mission",
       "flex-layout.col#about-vision",
       "flex-layout.col#about-values"
-    ]
+    ],
+    "props": {
+      "blockClass": "about-content-container"
+    }
   },
 
   "flex-layout.row#about-call-to-action": {
@@ -35,6 +39,13 @@
       "flex-layout.col#about-achievements-customers-served",
       "flex-layout.col#about-achievements-collaborators",
       "flex-layout.col#about-achievements-countries"
+    ]
+  },
+
+  "flex-layout.row#about-title-slider": {
+    "children":[
+      "rich-text#about-slider-title",
+      "rich-text#about-slider-content"
     ]
   },
 

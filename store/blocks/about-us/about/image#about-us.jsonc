@@ -2,7 +2,6 @@
   "image#about-us": {
     "props": {
       "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
-      "maxHeight": "600px",
       "blockClass": "about-us-image"
     }
   }

@@ -1,0 +1,18 @@
+{
+  "rich-text#about-slider-title": {
+    "props": {
+      "text": "## some of our main customers",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "about-slider-title"
+    }
+  },
+  "rich-text#about-slider-content": {
+    "props": {
+      "text": "some of our main customers",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "about-slider-title"
+    }
+  }
+}

@@ -1,3 +1,15 @@
+.imageElement--about-slider-img{
+  width: 7em;
+}
+
+.imageElement--about-us-image{
+  position: absolute;
+  overflow-x: hidden!important;
+  width: 60%;
+  top: 110px;
+  right: 0;
+}
+
 .infoCardContainer--customCardInfo {
   border:none;
   color:#fff!important;
