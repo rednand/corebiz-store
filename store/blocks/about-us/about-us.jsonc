@@ -9,7 +9,10 @@
   },
 
   "flex-layout.row#about-us": {
-    "children": ["image#about-us", "flex-layout.col#about-us"]
+    "children": ["image#about-us", "flex-layout.col#about-us"],
+    "props": {
+      "blockClass": "about-call-to-action"
+    }
   },
 
   "flex-layout.row#content": {
@@ -29,8 +32,8 @@
   "flex-layout.row#about-achievements": {
     "children": [
       "flex-layout.col#about-achievements-customers-served",
-      "flex-layout.col#about-achievements-since",
-      "flex-layout.col#about-achievements-prizes"
+      "flex-layout.col#about-achievements-collaborators",
+      "flex-layout.col#about-achievements-countries"
     ]
   }
 }

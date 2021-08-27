@@ -1,0 +1,28 @@
+{
+  //prizes
+    "flex-layout.col#about-achievements-countries": {
+      "children": [
+        "rich-text#about-title-achievements-countries",
+        "rich-text#about-content-achievements-countries"
+        ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "about-content"
+      }
+    },
+    
+    "rich-text#about-title-achievements-countries": {
+      "props": {
+        "text": "# 29 countries",
+        "textPosition": "CENTER",
+        "blockClass": "about-achievements"
+      }
+    },
+    
+    "rich-text#about-content-achievements-countries": {
+      "props": {
+        "text": "#### with fixed customers or projects",
+        "textAlignment": "CENTER"
+      }
+    }
+}

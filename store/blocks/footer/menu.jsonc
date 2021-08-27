@@ -1,0 +1,303 @@
+{
+  "vtex.menu@2.x:menu#footer-brasil": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#brasil",
+      "rich-text#brEnd1",
+      "rich-text#brEnd2"
+    ]
+  },
+  
+  "rich-text#brasil": { 
+    "props": { 
+      "text": "Brasil", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#brEnd1": { 
+    "props": { 
+      "text": "Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP", 
+      "blockClass": "footer-custom-text" 
+    } 
+  },
+  "rich-text#brEnd2": { 
+    "props": { 
+      "text": "R. Ifigenia Maria de Oliveira, 3793 - Jr.\n Piratininga Franca SP", 
+      "blockClass": "footer-custom-text" 
+    } 
+  },
+
+
+  "vtex.menu@2.x:menu#footer-argentina": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#argentina",
+      "rich-text#argEnd1"
+    ]
+  },
+
+  "rich-text#argentina": { 
+    "props": { 
+      "text": "Argentina", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#argEnd1": { 
+    "props": { 
+      "text": "Soler 5518, 3 Piso C1425BYF \nPalermo Hollywood CABA", 
+      "blockClass": "footer-custom-text" 
+    } 
+  },
+
+  "vtex.menu@2.x:menu#footer-mexico": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#mexico",
+      "rich-text#mexEnd1"
+    ]
+  },
+
+  "rich-text#mexico": { 
+    "props": { 
+      "text": "México", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#mexEnd1": { 
+    "props": { 
+      "text": "Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX", 
+      "blockClass": "footer-custom-text" 
+    } 
+  },
+
+  "vtex.menu@2.x:menu#footer-chile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#chile",
+      "rich-text#chiEnd1"
+    ]
+  },
+
+  "rich-text#chile": { 
+    "props": { 
+      "text": "Chile", 
+      "blockClass": "footer-custom-title" 
+    } 
+  },
+  "rich-text#chiEnd1": { 
+    "props": { 
+      "text": "Roberto del Río 1137, Providencia.", 
+      "blockClass": "footer-custom-text" 
+    } 
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing",
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+
+
+}

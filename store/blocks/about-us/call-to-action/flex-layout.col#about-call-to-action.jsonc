@@ -9,18 +9,18 @@
   
   "info-card#about-call-to-action": {
     "props": {
-      "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Call to action",
-      "subhead":"A Corebiz atua em toda jornada digital do usuário. Desde a configuração de plataformas, implementações e integrações, até a entrega de uma excelente experiência de consumo.",
+      "imageUrl": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630027221/bg-map_wygpga.png",
+      "headline": "Become a customer now",
+      "subhead":"Corebiz operates throughout the user's digital journey. From platform configuration, deployments and integrations, to delivering a great consumer experience.",
       "callToActionText": "ACTION",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "about"
+      "blockClass": "about-call-to-action"
     }
   },
+
   "rich-text#about-call-to-action": {
     "props": {
       "text": "Offer complete solutions in digital marketing focused on Omnichannel and Omnicontext."

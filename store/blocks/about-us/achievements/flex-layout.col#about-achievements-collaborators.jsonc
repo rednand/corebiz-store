@@ -1,0 +1,28 @@
+{
+  //customers-collaborators
+    "flex-layout.col#about-achievements-collaborators": {
+      "children": [
+        "rich-text#about-title-achievements-collaborators",
+        "rich-text#about-content-achievements-collaborators"
+        ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "about-content"
+      }
+    },
+    
+    "rich-text#about-title-achievements-collaborators": {
+      "props": {
+        "text": "# +340",
+        "textPosition": "CENTER",
+        "blockClass": "about-achievements"
+      }
+    },
+    
+    "rich-text#about-content-achievements-collaborators": {
+      "props": {
+        "text": "#### collaborators around the world",
+        "textAlignment": "CENTER"
+      }
+    }
+}

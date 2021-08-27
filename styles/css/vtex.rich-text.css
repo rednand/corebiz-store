@@ -38,3 +38,28 @@
   margin-left: 5px;
   background-color: #2680EB;
 }
+
+.heading--about-achievements {
+  margin-bottom: 1px;
+  color: #ffb100;
+}
+
+.container--shelfTitle{
+  justify-content: center;
+  margin: 40px 0;
+  color: #ffb100;
+}
+
+.container--shelfTitleBottom{
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.container--footer-custom-title{
+  font-weight: bold;
+  height: 40px;
+}
+
+.paragraph--footer-custom-text{
+  font-size: 0.8rem;
+}

@@ -13,13 +13,16 @@
     
     "rich-text#about-title-achievements-customers-served": {
       "props": {
-        "text": "# Customers Served"
+        "text": "# +de Mil",
+        "textPosition": "CENTER",
+        "blockClass": "about-achievements"
       }
     },
     
     "rich-text#about-content-achievements-customers-served": {
       "props": {
-        "text": "maiss de 8000"
+        "text": "#### active customers in several countries",
+        "textAlignment": "CENTER"
       }
     }
 }

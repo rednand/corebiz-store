@@ -2,7 +2,8 @@
   "flex-layout.col#about-us": {
     "children": ["rich-text#about-us-title", "rich-text#about-us-content"],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "about-content"
     }
   },
   "rich-text#about-us-title": {
