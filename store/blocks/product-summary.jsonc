@@ -1,0 +1,36 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-price",
+      "flex-layout.row"
+      
+    ],
+    "props":{
+      "blockClass":"custom-summary-cbz"
+    }
+  },
+  // "buy-button#product": {
+  //   "props": {
+  //     "isOneClickBuy": false,
+  //     "showTooltipOnSkuNotSelected": false,
+  //     "shouldOpenMinicart": false,
+  //     "shouldAddToCart": false,
+  //     "blockClass": "custom-by-button"
+  //   }
+  // }
+  "flex-layout.row": {
+    "children": [
+      "link#saibamais"
+    ]
+  },
+  "link#saibamais": {
+    "props": {
+      "label": "SAIBA MAIS",
+      "blockClass":"customLink"
+    }
+  }
+ 
+}
