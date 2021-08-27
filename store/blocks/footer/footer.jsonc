@@ -129,8 +129,8 @@
 
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks"
+      "accepted-payment-methods"
+      // "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods",
@@ -150,8 +150,7 @@
       "vtex.menu@2.x:menu#footer-argentina",
       "vtex.menu@2.x:menu#footer-mexico",
       "vtex.menu@2.x:menu#footer-chile",
-      "vtex.menu@2.x:menu#footer-espanha",
-      "footer-spacer"
+      "vtex.menu@2.x:menu#footer-espanha"
    ]
   }
 }
