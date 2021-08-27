@@ -4,6 +4,7 @@
       "flex-layout.row#about-us",
       "flex-layout.row#content",
       "flex-layout.row#about-call-to-action",
+      "flex-layout.row#about-slider",
       "flex-layout.row#about-achievements"
     ]
   },
@@ -34,6 +35,12 @@
       "flex-layout.col#about-achievements-customers-served",
       "flex-layout.col#about-achievements-collaborators",
       "flex-layout.col#about-achievements-countries"
+    ]
+  },
+
+  "flex-layout.row#about-slider": {
+    "children": [
+      "slider-layout#about"
     ]
   }
 }

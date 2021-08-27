@@ -13,8 +13,9 @@
     
     "rich-text#about-title-achievements-customers-served": {
       "props": {
-        "text": "# +de Mil",
+        "text": "# +out of a thousand",
         "textPosition": "CENTER",
+        "textAlignment": "CENTER",
         "blockClass": "about-achievements"
       }
     },
@@ -22,6 +23,7 @@
     "rich-text#about-content-achievements-customers-served": {
       "props": {
         "text": "#### active customers in several countries",
+        "textPosition": "CENTER",
         "textAlignment": "CENTER"
       }
     }

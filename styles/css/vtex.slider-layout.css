@@ -1,0 +1,11 @@
+.sliderLayoutContainer--about-slider {
+  margin: 60px 0;
+}
+
+.paginationDot--about-slider--isActive {
+  background-color: #f1c233;
+}
+
+.sliderArrows {
+  color: #f1c233;
+}
