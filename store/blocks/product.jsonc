@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "rich-text#blank",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main"
     ]
@@ -75,5 +76,13 @@
     "props": {
       "blockClass": "name"
     }
+  },
+
+  "rich-text#blank": {
+    "props":{
+      "text": ".",
+      "textColor": "c-on-base"
+    }
   }
+
 }

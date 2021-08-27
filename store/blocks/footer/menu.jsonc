@@ -14,19 +14,22 @@
   "rich-text#brasil": { 
     "props": { 
       "text": "Brasil", 
-      "blockClass": "footer-custom-title" 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small"
     } 
   },
   "rich-text#brEnd1": { 
     "props": { 
       "text": "Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP", 
-      "blockClass": "footer-custom-text" 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini"
     } 
   },
   "rich-text#brEnd2": { 
     "props": { 
       "text": "R. Ifigenia Maria de Oliveira, 3793 - Jr.\n Piratininga Franca SP", 
-      "blockClass": "footer-custom-text" 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini"
     } 
   },
 
@@ -45,20 +48,23 @@
   "rich-text#argentina": { 
     "props": { 
       "text": "Argentina", 
-      "blockClass": "footer-custom-title" 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small"
     } 
   },
   "rich-text#argEnd1": { 
     "props": { 
       "text": "Soler 5518, 3 Piso C1425BYF \nPalermo Hollywood CABA", 
-      "blockClass": "footer-custom-text" 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini" 
     } 
   },
 
   "vtex.menu@2.x:menu#footer-mexico": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"custom-item-menu"
+      "blockClass":"custom-item-menu",
+      "font": "t-mini"
     },
     "children": [
       "rich-text#mexico",
@@ -69,13 +75,15 @@
   "rich-text#mexico": { 
     "props": { 
       "text": "México", 
-      "blockClass": "footer-custom-title" 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small" 
     } 
   },
   "rich-text#mexEnd1": { 
     "props": { 
-      "text": "Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX", 
-      "blockClass": "footer-custom-text" 
+      "text": "Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 \nCiudad de México, CDMX", 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini" 
     } 
   },
 
@@ -93,211 +101,42 @@
   "rich-text#chile": { 
     "props": { 
       "text": "Chile", 
-      "blockClass": "footer-custom-title" 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small" 
     } 
   },
+  
   "rich-text#chiEnd1": { 
     "props": { 
       "text": "Roberto del Río 1137, Providencia.", 
-      "blockClass": "footer-custom-text" 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini" 
     } 
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-espanha": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "rich-text#espanha",
+      "rich-text#espEnd1"
     ]
   },
 
-  "vtex.menu@2.x:menu#footer-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
+  "rich-text#espanha": { 
+    "props": { 
+      "text": "Espanha", 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small" 
+    } 
   },
-
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
-
-  "vtex.menu@2.x:menu#clothing-accordion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-    ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-
-  "menu-item#tank-tops": {
-    "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      }
-    }
+  "rich-text#espEnd1": { 
+    "props": { 
+      "text": "Avenida de Brasil, 29 - Oficinas. \n28020 Madrid", 
+      "blockClass": "footer-custom-text",
+      "font": "t-mini" 
+    } 
   }
-
-
 }
