@@ -221,7 +221,7 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#f1c233",
+      "base": "#ffffff",
       "base--inverted": "#ffffff",
       "action-primary": "#1b2429",
       "action-secondary": "#0F3E99",
@@ -345,7 +345,7 @@
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Roboto, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "CircularMdm, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
