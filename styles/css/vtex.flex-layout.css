@@ -1,3 +1,31 @@
+.flexRow--banner{
+  display: flex;
+  align-items: center;
+  height: 600px;
+  border: none!important;
+  background-image: url(assets/images/bg-map.png);
+  background-size: cover;
+}
+.flexRow--custom-cbz{
+  width:90%;
+  height: 400px;
+  background-color: #000;
+  z-index: 1;
+}
+.flexRowContent--footer-img-cbz{
+  width: 1088px;
+}
+.flexRow--footer-img-cbz{
+  width: 600px;
+  height: 520px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  background-color: #fff;
+}
+ 
 .flexColChild--product-main {
     max-width: 400px;
     margin: 10px auto;
@@ -8,11 +36,5 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
-    padding-bottom: 30px;
-}
-
-.flexCol--product-main {
-    max-width: 450px;
-    background-color:#1b2429;
-    border-radius: 10px;
+    padding-bottom: 30px;    
 }
