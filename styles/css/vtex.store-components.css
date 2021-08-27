@@ -1,11 +1,43 @@
-.productDescriptionContainer--description {
+.infoCardContainer--customCardInfo{
+  border:none;
+  color:#fff!important;
+}
+.infoCardHeadline--customCardInfo{
+  font-size: 5.5rem;
+  max-width: 500px;
+}
+
+.imageElement--img-footer{
+  width: 100%
+}
+
+:global(.vtex-store-link-0-x-link--customLink){
+  text-decoration: none;
+  color: #000;
+  background-color:#f1c233;
+  border: 1px solid #f1c233;
+  max-width: 250px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+:global(.vtex-store-link-0-x-link--customLink):hover{
+  background-color: transparent;
+  color: #FFF;
+  background-color:#1b2429;
+}
+
+:global(.vtex-store-components-3-x-logoImage){
+  width: 110px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--custom-item-menu){
+  padding: 0 20px;
+}
+
+ .productDescriptionContainer--description {
     max-width: 350px;
 }
 
 .productDescriptionText--description {
-    color: white;
-}
-
-.productNameContainer--name {
     color: white;
 }
