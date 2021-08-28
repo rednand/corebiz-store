@@ -24,7 +24,7 @@
 
   "rich-text#about-vision-content": {
     "props": {
-      "text": "Ser a maior empresa de experiência, tecnologia e marketing para o comércio da América Latina.",
+      "text": "Ser a maior empresa de **experiência**, **tecnologia** e **marketing** para o comércio da América Latina.",
       "blockClass": "about-vision"
     }
   }
