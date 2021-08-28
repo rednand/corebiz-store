@@ -5,6 +5,7 @@ import { Clients } from './clients'
 import { getUsersById } from './middlewares/getUsersById'
 import { status } from './middlewares/status'
 import { validate } from './middlewares/validate'
+import { updateClientAws } from './event/updateClientAws'
 
 const TIMEOUT_MS = 800
 
@@ -43,4 +44,8 @@ export default new Service({
       GET: [validate, status],
     }),
   },
+
+  events: {
+    updClientAws: updateClientAws
+  }    
 })

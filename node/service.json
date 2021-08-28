@@ -5,6 +5,12 @@
   "minReplicas": 2,
   "maxReplicas": 4,
   "workers": 1,
+  "events": {
+    "updClientAws":{
+      "sender": "hiringcoders202103.corebiz-store",
+      "keys": ["orderPlaced"]
+    }
+  },
   "routes": {
     "users": {
       "path": "/_v/users/",

@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "rich-text#blank",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main"
     ]
@@ -27,7 +28,7 @@
       "blockClass": "product-main"
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-images",
       "product-description",
       "product-identifier.product",
@@ -54,7 +55,8 @@
     "props": {
       "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal",
-      "zoomMode": "disabled"
+      "zoomMode": "disabled",
+      "blockClass": "product-image"
     }
   },
 
@@ -71,9 +73,17 @@
     }
   },
 
-  "product-name": {
+  "vtex.store-components:product-name": {
     "props": {
       "blockClass": "name"
     }
+  },
+
+  "rich-text#blank": {
+    "props":{
+      "text": ".",
+      "textColor": "c-on-base"
+    }
   }
+
 }
