@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "minimumtheme",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "builders": {
     "node": "6.x",
     "styles": "2.x",
