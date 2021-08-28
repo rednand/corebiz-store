@@ -5,15 +5,18 @@
   background-image: url(assets/images/bg-map.png);
   background-size: cover;
 }
+
 .flexRow--custom-cbz{
   width:90%;
   height: 400px;
   background-color: #000;
   z-index: 1;
 }
+
 .flexRowContent--footer-img-cbz{
   width: 1088px;
 }
+
 .flexRow--footer-img-cbz{
   width: 600px;
   height: 520px;
@@ -45,5 +48,9 @@
 @media (max-width: 600px) {
   .flexRow--product-main {
     max-width: 300px;
+  }
+
+  .flexRow--banner{
+    background-image: url(assets/images/image-fundo-produto.png);
   }
 }

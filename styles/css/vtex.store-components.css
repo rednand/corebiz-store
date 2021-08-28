@@ -23,3 +23,14 @@
 .productBrand--name {
   color: white;
 }
+
+/* @media (max-width: 600px) {  
+  .productImage--product-image {
+    min-width: fit-content;
+    height: auto;
+  }
+
+  .productImageTag--product-image {
+    width: 300px;
+  }
+} */

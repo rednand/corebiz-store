@@ -55,7 +55,8 @@
     "props": {
       "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal",
-      "zoomMode": "disabled"
+      "zoomMode": "disabled",
+      "blockClass": "product-image"
     }
   },
 
