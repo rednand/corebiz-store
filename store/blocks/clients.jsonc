@@ -1,7 +1,8 @@
 {
     "store.custom#clients": {
         "blocks": [
-            "flex-layout.row#clients"
+            "flex-layout.row#clients",
+            "clientes"
         ]
     },
 
