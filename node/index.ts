@@ -3,6 +3,8 @@ import { method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
 import { getUsersById } from './middlewares/getUsersById'
+import { updateClientAws } from './event/updateClientAws'
+
 
 const TIMEOUT_MS = 800
 
@@ -27,4 +29,8 @@ export default new Service({
       GET: [getUsersById],
     }),
   },
+
+  events: {
+    updClientAws: updateClientAws
+  }    
 })
