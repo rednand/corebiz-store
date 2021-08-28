@@ -6,7 +6,7 @@ export async function status(ctx: Context, next: () => Promise<any>) {
   
     console.info('Received code:', code)
   
-    const sku = await catalog.getSkuById(''+ code)
+    const sku = await catalog.getSkuById('' + code)
   
     ctx.body = sku
   

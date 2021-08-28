@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "minimumtheme",
+  "vendor": "hiringcoders202103",
+  "name": "corebiz-store",
   "version": "0.2.0",
   "builders": {
     "node": "6.x",
