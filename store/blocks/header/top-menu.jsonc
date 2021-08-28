@@ -1,0 +1,11 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "marginTop": "6"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#clients"
+    ]
+  }
+}
