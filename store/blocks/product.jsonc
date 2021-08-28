@@ -27,7 +27,7 @@
       "blockClass": "product-main"
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-images",
       "product-description",
       "product-identifier.product",
@@ -71,7 +71,7 @@
     }
   },
 
-  "product-name": {
+  "vtex.store-components:product-name": {
     "props": {
       "blockClass": "name"
     }
