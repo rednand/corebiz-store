@@ -1,0 +1,34 @@
+{
+    "store.custom#clients": {
+        "blocks": [
+            "flex-layout.row#clients",
+            "clientes"
+        ]
+    },
+
+    "flex-layout.row#clients":{
+        "children":[
+            "flex-layout.col#clients"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+      },
+
+    "flex-layout.col#clients": {
+        "children": [
+            "rich-text#clients"        
+        ]
+    },
+
+    "rich-text#clients":{
+        "props":{
+            "text": "Nossos Clientes",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-2",
+            "blockClass": "shelfTitle"
+        }
+    }
+}
