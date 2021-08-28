@@ -1,12 +1,17 @@
 import type { ClientsConfig, ServiceContext, RecorderState } from '@vtex/api'
-import { method, Service } from '@vtex/api'
+import {  LRUCache, method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
 import { getUsersById } from './middlewares/getUsersById'
 import { status } from './middlewares/status'
+import { validate } from './middlewares/validate'
 import { updateClientAws } from './event/updateClientAws'
 
 const TIMEOUT_MS = 800
+
+const memoryCache = new LRUCache<string, any>({ max: 5000 })
+
+metrics.trackCache('status', memoryCache)
 
 const clients: ClientsConfig<Clients> = {
   implementation: Clients,
@@ -14,6 +19,9 @@ const clients: ClientsConfig<Clients> = {
     default: {
       retries: 2,
       timeout: TIMEOUT_MS,
+    },
+    status: {
+      memoryCache,
     },
   },
 }
@@ -33,7 +41,7 @@ export default new Service({
       GET: [getUsersById],
     }),
     status: method({
-      GET: [status],
+      GET: [validate, status],
     }),
   },
 
