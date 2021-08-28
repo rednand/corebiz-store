@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#about-values-container": {
+    "children": [
+      "flex-layout.col#about-values-content"
+    ],
+    "props": {
+      "blockClass": "about-virtues"
+    }
+  },
+
+  "flex-layout.col#about-values-content": {
+    "children": [
+      "rich-text#about-values-title",
+      "rich-text#about-values-content"
+    ]
+  },
+
+  "rich-text#about-values-title": {
+    "props": {
+      "text": "# valores",
+      "blockClass": "about-values"
+    }
+  },
+
+  "rich-text#about-values-content": {
+    "props": {
+      "text": "\n + determinação \n + inovação \n + coragem \n + aglidade \n + colaboração",
+      "blockClass": "about-values"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#about-slider": {
+  "flex-layout.row#about-slider-container": {
     "children":[
       "flex-layout.col#about-slider-content"
     ]
@@ -19,8 +19,6 @@
   "rich-text#about-slider-title": {
     "props": {
       "text": "## alguns de nossos principais clientes",
-      "textPosition": "RIGHT",
-      "textAlignment": "RIGHT",
       "blockClass": "about-achievements-header"
     }
   }

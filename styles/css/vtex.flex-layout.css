@@ -1,15 +1,32 @@
 .flexCol--about-content {
   padding: 70px;
 }
-/*continuar Aqui*/
+
 .flexRow--about-call-to-action {
   background-color: #000;
   padding: 30px 0;
 }
 
-.flexRow--about-content-container {
-  padding: 180px 0;
+.flexRow--about-vision-container {
+  padding-top: 180px;
+  padding-left: 0;
+  padding-bottom: 30px;
+  padding-right: 30%;
   background-color: #fff;
+}
+
+.flexRow--about-values-container {
+  padding-top: 30;
+  padding-left: 30%;
+  padding-bottom: 40px;
+  padding-right: 0;
+  background-color: #fff;
+}
+
+ .flexRow--about-virtues {
+  padding: 70px;
+  background-color: #f5f5f5;
+  border-left: 20px solid #ffb100;
 }
 
 .flexRow--about-achievements-container {

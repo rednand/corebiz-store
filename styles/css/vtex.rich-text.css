@@ -1,6 +1,27 @@
-.heading--about-virtues, .paragraph--about-virtues, .listItem--about-virtues {
+.heading--about-vision {
+  font-size: 3em;
+  margin: 0;
+  color: #ffb100;
+}
 
+.paragraph--about-vision {
   color: #000;
+  max-width: 400px;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.heading--about-values {
+  font-size: 3em;
+  margin: 0;
+  color: #ffb100;
+}
+
+.listItem--about-values {
+  color: #000;
+  max-width: 400px;
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .heading--about-virtues::after{
@@ -10,35 +31,7 @@
   width: 20px;
   height: 20px;
   margin-left: 5px;
-  background-color: #DE702F;
-}
-
-.heading--about-content-02 {
-  color: #953764;
-}
-
-.heading--about-content-02::after{
-  content: " ";
-  display: inline-block;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
-  background-color: #953764;
-}
-
-.heading--about-content-03 {
-  color: #2680EB;
-}
-
-.heading--about-content-03::after{
-  content: " ";
-  display: inline-block;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
-  background-color: #2680EB;
+  background-color:#ffb100;
 }
 
 .heading--about-achievements-header {
