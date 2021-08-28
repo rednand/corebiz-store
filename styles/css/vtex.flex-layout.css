@@ -12,6 +12,12 @@
   background-color: #fff;
 }
 
+.flexRow--about-achievements-container {
+  padding: 180px 0;
+  background-image: url(assets/images/bg-map.png);
+  background-size: cover;
+}
+
 .flexRow--banner{
   display: flex;
   align-items: center;

@@ -21,7 +21,7 @@
     
     "rich-text#about-content-achievements-collaborators": {
       "props": {
-        "text": "#### collaborators around the world",
+        "text": "#### colaboradores pelo mundo",
         "textAlignment": "CENTER"
       }
     }

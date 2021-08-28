@@ -13,7 +13,7 @@
     
     "rich-text#about-title-achievements-customers-served": {
       "props": {
-        "text": "# +out of a thousand",
+        "text": "# +100",
         "textPosition": "CENTER",
         "textAlignment": "CENTER",
         "blockClass": "about-achievements"
@@ -22,7 +22,7 @@
     
     "rich-text#about-content-achievements-customers-served": {
       "props": {
-        "text": "#### active customers in several countries",
+        "text": "#### clientes ativos em diversos países",
         "textPosition": "CENTER",
         "textAlignment": "CENTER"
       }

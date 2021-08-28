@@ -1,7 +1,9 @@
-.heading--about-content-01 {
-  color: #ffb100;
+.heading--about-virtues, .paragraph--about-virtues, .listItem--about-virtues {
+
+  color: #000;
 }
-.heading--about-content-01::after{
+
+.heading--about-virtues::after{
   content: " ";
   display: inline-block;
   border-radius: 50%;
@@ -37,6 +39,12 @@
   height: 20px;
   margin-left: 5px;
   background-color: #2680EB;
+}
+
+.heading--about-achievements-header {
+  margin-bottom: 1px;
+  max-width: 400px;
+  color: #fff;
 }
 
 .heading--about-achievements {

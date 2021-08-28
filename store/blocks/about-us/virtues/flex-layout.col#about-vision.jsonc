@@ -11,13 +11,14 @@
   "rich-text#about-title-vision": {
     "props": {
       "text": "# Vision",
-      "blockClass": "about-content-03"
+      "blockClass": "about-virtues"
     }
   },
   
   "rich-text#about-content-vision": {
     "props": {
-      "text": "To be the largest company of experience, technology and marketing for commerce in Latin America."
+      "text": "Ser a maior empresa de **experiência**, \n **tecnologia** e **marketing** para o comércio da \n América Latina.",
+      "blockClass": "about-virtues"
     }
   }
 }
