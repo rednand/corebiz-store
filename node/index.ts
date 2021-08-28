@@ -19,7 +19,7 @@ const clients: ClientsConfig<Clients> = {
 }
 
 declare global {
-  type Context = ServiceContext<Clients>
+  type Context = ServiceContext<Clients>, State
 
   interface State extends RecorderState {
     code: number
