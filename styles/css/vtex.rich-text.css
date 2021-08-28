@@ -1,13 +1,13 @@
 .heading--about-vision {
   font-size: 3em;
-  margin: 0;
   color: #ffb100;
 }
 
 .paragraph--about-vision {
-  color: #000;
+  color: #fff;
   max-width: 400px;
-  font-size: 1.5em;
+  font-size: 2em;
+  line-height: 35px;
   margin: 0;
 }
 
@@ -20,8 +20,8 @@
 .listItem--about-values {
   color: #000;
   max-width: 400px;
-  font-size: 1.5em;
-  margin: 0;
+  font-size: 2em;
+  max-width: 400px;
 }
 
 .heading--about-virtues::after{

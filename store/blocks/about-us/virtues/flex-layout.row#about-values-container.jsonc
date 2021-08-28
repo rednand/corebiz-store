@@ -4,7 +4,7 @@
       "flex-layout.col#about-values-content"
     ],
     "props": {
-      "blockClass": "about-virtues"
+      "blockClass": "about-values"
     }
   },
 
@@ -18,7 +18,9 @@
   "rich-text#about-values-title": {
     "props": {
       "text": "# valores",
-      "blockClass": "about-values"
+      "blockClass": "about-values",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
     }
   },
 
