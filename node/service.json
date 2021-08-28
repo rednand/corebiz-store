@@ -13,7 +13,7 @@
   },
   "routes": {
     "users": {
-      "path": "/_v/users/:id",
+      "path": "/_v/users/",
       "public": true
     },
     "status": {

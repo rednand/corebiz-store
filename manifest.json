@@ -3,7 +3,6 @@
   "name": "corebiz-store",
   "version": "0.0.1",
   "builders": {
-    "node": "6.x",
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
@@ -74,6 +73,9 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.store-link": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
     "vtex.css-handles": "0.x"
   },
   "credentialType": "absolute",
