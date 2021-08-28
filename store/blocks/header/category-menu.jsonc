@@ -1,0 +1,34 @@
+{
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "a corebiz",
+        "text": "a corebiz"
+      }
+    }
+  },
+
+  "menu-item#clients": {
+    "props": {
+      "id": "menu-item-clients",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clients",
+        "noFollow": true,
+        "tagTitle": "nossos clientes",
+        "text": "nossos clientes"
+      }
+    }
+  }
+
+}

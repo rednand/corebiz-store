@@ -1,49 +1,42 @@
 {
   "store.home": {
     "blocks": [
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-       "flex-layout.row#banner",
-      // "__fold__.experimentalLazyAssets",
+      "flex-layout.row#banner",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelf-space"
-      // "info-card#home",
-      // "rich-text#question",
-      // "rich-text#link",
-      // "newsletter"
     ]
-  },
-
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
   },
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## NOSSOS SERVIÇOS",
+      "text": "NOSSOS SERVIÇOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-2",
       "blockClass": "shelfTitle"
     }
   },
+
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
+
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByPriceASC"
     }
   },
+
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
@@ -63,5 +56,4 @@
       "blockClass": "shelfTitleBottom"
     }
   }
-
 }

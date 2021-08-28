@@ -1,6 +1,5 @@
-.wrapper--custom-header{
-  height: 90px!important;
-  padding: 60px 0 0;
+.container--custom-header {
+  height: 90px;
+  padding: 40px 0 0;
   background-color: #000;
 }
-.container--custom-header{background-color: #000;}

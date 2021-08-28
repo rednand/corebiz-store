@@ -23,8 +23,8 @@
     "props": {
       "isFullModeStyle": true,
       "headline": "we are global.",
-      "callToActionText": "DESCUBRA",
-      "textPosition": "center",
+      "callToActionText": "SAIBA MAIS",
+      "textPosition": "left",
       "blockClass": "customCardInfo"
     }
   },

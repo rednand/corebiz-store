@@ -1,21 +1,33 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
+
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
+
   "header-layout.desktop": {
     "children": [
       "sticky-layout#desktop"
     ]
   },
+
   "sticky-layout#desktop": {
     "props": {
-      "blockClass": ["sticky-header", "custom-header"]
+      "blockClass": [
+        "custom-header"
+      ]
     },
     "children": ["flex-layout.row#desktop"]
   },
+
   "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "center",
@@ -31,36 +43,52 @@
       "locale-switcher"
     ]
   },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
   },
+
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/logo-corebiz-global.svg",
-      "width": "80"
+      "width": "110"
     }
   },
+
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile"
+    ]
   },
+
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "props": {
+      "blockClass": [
+        "custom-header"
+      ]
+    },
+    "children": [
+      "flex-layout.row#mobile"
+    ]
   },
+
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
-      "flex-layout.col#spacer"
+      "logo"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -69,7 +97,20 @@
       "fullWidth": true
     }
   },
+
   "drawer": {
-    "children": []
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  
+  "menu#drawer": {
+    "children": [
+      "menu-item#about-us",
+      "menu-item#clients"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
   }
 }
