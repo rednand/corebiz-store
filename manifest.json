@@ -1,14 +1,16 @@
 {
   "vendor": "vtex",
   "name": "minimumtheme",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "builders": {
+    "node": "6.x",
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
     "assets": "0.x"
   },
   "scripts": {
+    "prereleasy": "bash lint.sh",
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
@@ -49,5 +51,28 @@
     "vtex.condition-layout": "2.x",
     "vtex.store-link": "0.x"
   },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "mdz06pnka0.execute-api.us-east-2.amazonaws.com",
+        "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/catalog/pvt/*"
+      }
+    },
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -9,6 +9,10 @@
     "users": {
       "path": "/_v/users/:id",
       "public": true
+    },
+    "status": {
+      "path": "/_v/status/:code",
+      "public": true
     }
   }
 }
