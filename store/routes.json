@@ -1,9 +1,9 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
-  },
+    "store.custom#about-us": {
+        "path": "/about-us"
+    },
 
-  "store.custom#clients": {
-    "path": "/clients"
-  }
+    "store.custom#clients": {
+        "path": "/clients"
+    }
 }

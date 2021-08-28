@@ -1,13 +1,13 @@
 {
   "vendor": "hiringcoders202103",
-  "name": "minimumtheme",
-  "version": "0.1.1",
+  "name": "corebiz-store",
+  "version": "0.0.1",
   "builders": {
+    "node": "6.x",
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
     "assets": "0.x",
-    "node": "6.x",
     "react": "3.x"
   },
   "scripts": {
@@ -21,6 +21,13 @@
       "attrs": {
         "host": "mdz06pnka0.execute-api.us-east-2.amazonaws.com",
         "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/catalog/pvt/*"
       }
     },
     {
@@ -69,5 +76,6 @@
     "vtex.store-link": "0.x",
     "vtex.css-handles": "0.x"
   },
+  "credentialType": "absolute",
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
