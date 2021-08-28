@@ -3,8 +3,6 @@
     "blocks": [
       "flex-layout.row#about-us",
       "flex-layout.row#virtues",
-      "flex-layout.row#about-call-to-action",
-      "flex-layout.row#about-title-slider",
       "flex-layout.row#about-slider",
       "flex-layout.row#about-achievements"
     ]
@@ -27,12 +25,6 @@
     }
   },
 
-  "flex-layout.row#about-call-to-action": {
-    "children": [
-      "flex-layout.col#about-call-to-action"
-    ]
-  },
-
   "flex-layout.row#about-achievements": {
     "children": [
       "flex-layout.row#about-achievements-head"
@@ -42,16 +34,9 @@
     }
   },
 
-  "flex-layout.row#about-title-slider": {
-    "children":[
-      "rich-text#about-slider-title",
-      "rich-text#about-slider-content"
-    ]
-  },
-
   "flex-layout.row#about-slider": {
-    "children": [
-      "slider-layout#about"
+    "children":[
+      "flex-layout.row#about-slider"
     ]
   }
 }
