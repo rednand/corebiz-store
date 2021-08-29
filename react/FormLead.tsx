@@ -42,7 +42,7 @@ const FormLead: StorefrontFunctionComponent = () =>  {
       nome: lead.nome,
       email: lead.email,
       fone: lead.fone,
-      prospecto: false,
+      prospecto: true,
     };
     sendLead(leadObj);
   };
