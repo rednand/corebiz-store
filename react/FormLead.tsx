@@ -4,10 +4,10 @@ import { Button, Container, Input, Error, Success } from './styles/formulario'
 
 interface Lead {
   id: string;
-  nome: string;
+  name?: string;
   sobrenome: string;
   email: string;
-  prospecto: boolean;
+  prospect: boolean;
 }
 
 const FormLead: StorefrontFunctionComponent = () =>  {
@@ -16,10 +16,10 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const [error, setError] = useState(false)
   const [sendSuccess, setSendSuccess] = useState(false)
   const [lead, setLead] = useState({
-    nome: "",
+    name: "",
     sobrenome: "",
     email: "",
-    prospecto: null,
+    prospect: null,
   });
   
   const handleCreateNewLead = (property: string, value: string) => {
@@ -35,9 +35,9 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     }
     
     leadObj = {
-      prospecto: false,
-      nome: lead.nome,
-      id: '9',
+      prospect: false,
+      name: lead.name,
+      id: '20',
       email: lead.email,
       sobrenome: lead.sobrenome,
     };
@@ -47,9 +47,9 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const sendLead =  (lead: Lead) =>  {
     console.log(lead);
      http
-      .put('/users', lead).then((res) => {
+      .put('/create', lead).then((res) => {
         console.log(res)
-        setLead({ nome: "", sobrenome: "", email: "", prospecto: null });
+        setLead({ name: "", sobrenome: "", email: "", prospect: null });
         setSendSuccess(true);
       })
   };
@@ -67,12 +67,12 @@ const FormLead: StorefrontFunctionComponent = () =>  {
           <Input
             type="text"
             placeholder="Nome"
-            value={lead.nome}
+            value={lead.name}
             required
             onChange={({
               target: { value },
             }: React.ChangeEvent<HTMLInputElement>) =>
-            handleCreateNewLead("nome", value)
+            handleCreateNewLead("name", value)
             }
           />
           
