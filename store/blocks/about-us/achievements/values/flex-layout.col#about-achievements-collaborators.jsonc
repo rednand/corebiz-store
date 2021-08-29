@@ -14,6 +14,7 @@
     "rich-text#about-title-achievements-collaborators": {
       "props": {
         "text": "# +340",
+        "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "about-achievements"
       }
@@ -21,8 +22,10 @@
     
     "rich-text#about-content-achievements-collaborators": {
       "props": {
-        "text": "#### colaboradores pelo mundo",
-        "textAlignment": "CENTER"
+        "text": "colaboradores pelo mundo",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "about-achievements-content"
       }
     }
 }

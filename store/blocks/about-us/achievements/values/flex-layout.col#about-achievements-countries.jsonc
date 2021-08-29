@@ -14,6 +14,7 @@
     "rich-text#about-title-achievements-countries": {
       "props": {
         "text": "# 29 países",
+        "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "about-achievements"
       }
@@ -21,8 +22,10 @@
     
     "rich-text#about-content-achievements-countries": {
       "props": {
-        "text": "#### com clientes fixos ou projetos",
-        "textAlignment": "CENTER"
+        "text": "com clientes fixos ou projetos",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "about-achievements-content"
       }
     }
 }

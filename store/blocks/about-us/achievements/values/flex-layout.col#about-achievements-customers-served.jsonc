@@ -22,9 +22,10 @@
     
     "rich-text#about-content-achievements-customers-served": {
       "props": {
-        "text": "#### clientes ativos em diversos países",
+        "text": "clientes ativos em diversos países",
         "textPosition": "CENTER",
-        "textAlignment": "CENTER"
+        "textAlignment": "CENTER",
+        "blockClass": "about-achievements-content"
       }
     }
 }
