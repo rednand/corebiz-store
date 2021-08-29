@@ -31,8 +31,8 @@
   "info-card#rethink": {
     "props": {
       "isFullModeStyle": true,
-      "headline": "we are global.",
-      "callToActionText": "Clique na imagem ficar por dentro",
+      "headline": "faça parte do nosso mundo.",
+      "callToActionText": "Junte-se a nós!",
       "callToActionMode": "button",
       "textPosition": "left",
       "blockClass": "customCardInfo"
