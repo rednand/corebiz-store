@@ -39,7 +39,8 @@
       "vtex.menu@2.x:menu#footer-chile",
       "vtex.menu@2.x:menu#footer-espanha",
       "footer-spacer",
-      "social-networks"
+      "vtex.menu@2.x:menu#social-Networks"
+     
     ],
     "props": {
       "blockClass": [
@@ -56,19 +57,15 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://pt-br.facebook.com/corebiz.ag/"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/corebizag/"
         },
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/corebiz-brasil/"
         }
       ]
     }
