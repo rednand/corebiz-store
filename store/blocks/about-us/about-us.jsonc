@@ -1,0 +1,51 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us",
+      "flex-layout.row#about-vision",
+      "flex-layout.row#about-values",
+      "flex-layout.row#about-slider",
+      "flex-layout.row#about-achievements"
+    ]
+  },
+
+  "flex-layout.row#about-us": {
+    "children": ["flex-layout.col#about-us","image#about-us"],
+    "props": {
+      "blockClass": "about-call-to-action"
+    }
+  },
+
+  "flex-layout.row#about-vision": {
+    "children":[
+      "flex-layout.row#about-vision-container"
+    ],
+    "props":{
+      "blockClass":"about-vision-container"
+    }
+  },
+
+  "flex-layout.row#about-values": {
+    "children":[
+      "flex-layout.row#about-values-container"
+    ],
+    "props":{
+      "blockClass":"about-values-container"
+    }
+  },
+
+  "flex-layout.row#about-achievements": {
+    "children": [
+      "flex-layout.row#about-achievements-head"
+    ],
+    "props": {
+      "blockClass":"about-achievements-container"
+    }
+  },
+
+  "flex-layout.row#about-slider": {
+    "children":[
+      "flex-layout.row#about-slider-container"
+    ]
+  }
+}

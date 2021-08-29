@@ -1,0 +1,19 @@
+{
+  "flex-layout.col#about-us": {
+    "children": ["rich-text#about-us-title", "rich-text#about-us-content"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "about-content"
+    }
+  },
+  "rich-text#about-us-title": {
+    "props": {
+      "text": "# a corebiz"
+    }
+  },
+  "rich-text#about-us-content": {
+    "props": {
+      "text": "Oferecemos soluções completas em **marketing** digital \n com foco em **Omnichannel** & **Omnicontext**"
+    }
+  }
+}

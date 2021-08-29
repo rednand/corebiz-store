@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#about-vision-container": {
+    "children": [
+      "flex-layout.col#about-vision-content"
+    ],
+    "props": {
+      "blockClass": "about-vision"
+    }
+  },
+
+  "flex-layout.col#about-vision-content": {
+    "children": [
+      "rich-text#about-vision-title",
+      "rich-text#about-vision-content"
+    ]
+  },
+
+  "rich-text#about-vision-title": {
+    "props": {
+      "text": "# visão",
+      "blockClass": "about-vision"
+    }
+  },
+
+  "rich-text#about-vision-content": {
+    "props": {
+      "text": "Ser a maior empresa de **experiência**, **tecnologia** e **marketing** para o comércio da América Latina.",
+      "blockClass": "about-vision"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#about-achievements-head": {
+    "children":[
+      "flex-layout.col#about-achievements-content"
+    ]
+  },
+
+  "flex-layout.col#about-achievements-content": {
+    "children": [
+      "rich-text#about-achievements-title",
+      "rich-text#about-achievements-content",
+      "flex-layout.row#about-achievements-values"
+      ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "about-content"
+    }
+  },
+
+  "rich-text#about-achievements-title": {
+    "props": {
+      "text": "# nossos números pelo mundo.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "about-achievements-header"
+    }
+  },
+  "rich-text#about-achievements-content": {
+    "props": {
+      "text": "levamos um pouco da nossa \n visão pelo mundo",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "about-achievements-header"
+    }
+  }
+}
