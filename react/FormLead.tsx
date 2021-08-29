@@ -15,7 +15,7 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   
   let leadObj: Lead;
   const [error, setError] = useState(false)
-  const [sendSuccess, setSendSuccess] = useState(true)
+  const [sendSuccess, setSendSuccess] = useState(false)
   const [lead, setLead] = useState({
     id: "",
     nome: "",
