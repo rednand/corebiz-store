@@ -55,7 +55,8 @@
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.modal-layout": "0.x"
   },
   "credentialType": "absolute",
   "policies": [
