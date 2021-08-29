@@ -2,6 +2,7 @@
     "store.custom#clients": {
         "blocks": [
             "flex-layout.row#clients",
+            "formulario-leads",
             "clientes"
         ]
     },
