@@ -4,22 +4,25 @@ import { Button, Container, Input, Error, Success } from './styles/formulario'
 
 interface Lead {
   id: string;
-  name?: string;
-  sobrenome: string;
+  nome: string;
+  fone: string;
   email: string;
-  prospect: boolean;
+  data?: string;
+  prospecto: boolean;
 }
 
 const FormLead: StorefrontFunctionComponent = () =>  {
   
   let leadObj: Lead;
   const [error, setError] = useState(false)
-  const [sendSuccess, setSendSuccess] = useState(false)
+  const [sendSuccess, setSendSuccess] = useState(true)
   const [lead, setLead] = useState({
-    name: "",
-    sobrenome: "",
+    id: "",
+    nome: "",
+    fone: "",
     email: "",
-    prospect: null,
+    data: "",
+    prospecto: null,
   });
   
   const handleCreateNewLead = (property: string, value: string) => {
@@ -35,11 +38,11 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     }
     
     leadObj = {
-      prospect: false,
-      name: lead.name,
-      id: '20',
+      id: lead.email,
+      nome: lead.nome,
       email: lead.email,
-      sobrenome: lead.sobrenome,
+      fone: lead.fone,
+      prospecto: false,
     };
     sendLead(leadObj);
   };
@@ -49,7 +52,7 @@ const FormLead: StorefrontFunctionComponent = () =>  {
      http
       .put('/create', lead).then((res) => {
         console.log(res)
-        setLead({ name: "", sobrenome: "", email: "", prospect: null });
+        setLead({ id: "", nome: "", fone: "", email: "", data:"", prospecto: null });
         setSendSuccess(true);
       })
   };
@@ -67,24 +70,24 @@ const FormLead: StorefrontFunctionComponent = () =>  {
           <Input
             type="text"
             placeholder="Nome"
-            value={lead.name}
+            value={lead.nome}
             required
             onChange={({
               target: { value },
             }: React.ChangeEvent<HTMLInputElement>) =>
-            handleCreateNewLead("name", value)
+            handleCreateNewLead("nome", value)
             }
           />
           
           <Input
             type="text"
-            placeholder="Sobrenome"
-            value={lead.sobrenome}
+            placeholder="Telefone"
+            value={lead.fone}
             required
             onChange={({
               target: { value },
             }: React.ChangeEvent<HTMLInputElement>) =>
-            handleCreateNewLead("sobrenome", value)
+            handleCreateNewLead("fone", value)
             }
           />
           <Input
@@ -110,5 +113,12 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     </>
   )
 }
+
+FormLead.schema = {
+  title: "editor.FormLead.title",
+  description: "editor.FormLead.description",
+  type: "object",
+  properties: {},
+};
 
 export default FormLead

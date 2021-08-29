@@ -49,7 +49,10 @@
     "children": [
       "modal-header",
       "modal-content"
-    ]
+    ],
+    "props":{
+      "blockClass": "customModal"
+    }
   },
 
   "modal-header": {
