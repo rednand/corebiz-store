@@ -1,0 +1,6 @@
+{
+  "section": "orders",
+  "titleId": "adminLead.navigation.label",
+  "path": "/admin/leads",
+  "searchKeyWordsHelpers": "adminLead.navigation.search.kws"
+}

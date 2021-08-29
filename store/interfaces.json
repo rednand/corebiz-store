@@ -1,6 +1,6 @@
 {
   "clientes": {
-    "component": "CaptureLead"
+    "component": "Clientes"
   },
   "formulario-leads": {
     "component": "FormLead"
