@@ -51,7 +51,7 @@
 
 .flexRow--about-call-to-action {
   background-color: #000;
-  padding: 30px 0;
+  padding: 70px 0;
 }
 
 .flexRow--about-vision-container {
@@ -98,5 +98,42 @@
 
   .flexRow--banner{
     background-image: url(assets/images/image-fundo-produto.png);
+  }
+}
+
+@media (max-width: 1280px) {
+  .flexCol--about-content {
+    padding: 0;
+  }
+
+  .flexRow--about-values {
+    padding-top: 300px;
+    padding-left: 20px;
+    margin-top: -240px;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 980px) {
+  .flexRow--about-call-to-action {
+    padding: 50px 0;
+  }
+
+  .flexRow--about-vision-container {
+    padding-top: 100px;
+  }
+}
+
+@media(max-width: 890px) {  
+  .flexRow--about-call-to-action {
+    background-image: url(https://res.cloudinary.com/pedro-drosa/image/upload/v1630266567/about-intro-image_ckulsz.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  .flexRow--about-vision {
+    padding: 40px;
   }
 }
