@@ -126,8 +126,8 @@
 
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods"
-      // "social-networks"
+      "accepted-payment-methods",
+      "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods",
