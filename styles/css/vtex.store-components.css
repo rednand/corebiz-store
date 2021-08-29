@@ -60,13 +60,8 @@
   }
 }
 
-/* @media (max-width: 600px) {  
-  .productImage--product-image {
-    min-width: fit-content;
-    height: auto;
+@media (max-width: 600px) {  
+  .infoCardHeadline--customCardInfo{
+    font-size: 5rem;
   }
-
-  .productImageTag--product-image {
-    width: 300px;
-  }
-} */
+}
