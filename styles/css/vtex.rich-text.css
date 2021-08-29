@@ -34,16 +34,6 @@
   max-width: 400px;
 }
 
-.heading--about-virtues::after{
-  content: " ";
-  display: inline-block;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
-  background-color:#ffb100;
-}
-
 .heading--about-achievements-header {
   margin-bottom: 1px;
   max-width: 400px;
@@ -63,4 +53,22 @@
   justify-content: center;
   margin: 40px 0 0 0;
   color: #ffb100;
+}
+
+.paragraph--about-achievements-content {
+  font-size: 2em;
+  line-height: 35px;
+}
+
+@media (max-width: 900px){
+  .heading--about-achievements {
+    font-size: 2em;
+  }
+  .paragraph--about-achievements-mobile{
+    font-size: 1em;
+    text-align: center;
+  }
+  .paragraph--about-achievements-content {
+    font-size: 1.2em;
+  }
 }

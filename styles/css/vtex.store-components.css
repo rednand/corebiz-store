@@ -36,13 +36,32 @@
   right: 0;
 }
 
-/* @media (max-width: 600px) {  
-  .productImage--product-image {
-    min-width: fit-content;
-    height: auto;
+@media(max-width: 1280px) {  
+  .imageElement--about-us-image {
+    width: 55%;
   }
+}
 
-  .productImageTag--product-image {
-    width: 300px;
+@media(max-width: 980px) {  
+  .imageElement--about-us-image {
+    width: 50%;
   }
-} */
+}
+
+@media(max-width: 800px) {  
+  .imageElement--about-us-image {
+    top: 180px;
+  }
+}
+
+@media(max-width: 890px) {  
+  .imageElement--about-us-image {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {  
+  .infoCardHeadline--customCardInfo{
+    font-size: 5rem;
+  }
+}
