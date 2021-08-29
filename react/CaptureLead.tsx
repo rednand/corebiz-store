@@ -4,16 +4,17 @@ import { Container, Card, Title, Info } from './styles/clientes'
 interface Lead {
   id: string;
   nome: string;
-  sobrenome: string;
+  fone: string;
   email: string;
   prospecto: boolean;
+  data: string;
 }
  
 const CaptureLead: StorefrontFunctionComponent = () =>  {
   const [leads, setLeads] = useState<Lead[]>([])
   useEffect(() => {
     http
-      .get('/users')
+      .get('/list')
       .then((response) => response.data)
       .then((data) => setLeads(data["Items"])
       )
@@ -23,10 +24,10 @@ const CaptureLead: StorefrontFunctionComponent = () =>  {
     <Container>
       { 
         leads.map((lead)=>{
-          if(lead.prospecto==true){
+          if(lead.prospecto == false){
             return(<Card>
               <Title>{lead.nome}</Title>
-              <Info>Cliente desde: <span>2020</span></Info>
+              <Info>Cliente desde: <span>{lead.data}</span></Info>
             </Card>)
           }
           return
