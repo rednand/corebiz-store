@@ -20,7 +20,7 @@ const Clientes: StorefrontFunctionComponent = () =>  {
     <Container>
       { 
         leads.map((lead)=>{
-          if(lead.prospecto==true){
+          if(lead.prospecto==false){
             return(<Card>
               <Title>{lead.nome}</Title>
               {

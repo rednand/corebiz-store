@@ -27,7 +27,7 @@ const LeadsAdmin: StorefrontFunctionComponent = () =>  {
           return(
             <>
               {
-                lead.prospecto?
+                !lead.prospecto?
                   <CardClient>
                     <Title>{lead.nome}</Title>
                     <Info><span>Cliente:</span> SIM</Info>
