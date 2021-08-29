@@ -8,7 +8,6 @@
     "store": "0.x",
     "docs": "0.x",
     "assets": "0.x",
-    "node": "6.x",
     "react": "3.x"
   },
   "scripts": {
@@ -22,6 +21,13 @@
       "attrs": {
         "host": "mdz06pnka0.execute-api.us-east-2.amazonaws.com",
         "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/catalog/pvt/*"
       }
     },
     {
@@ -70,31 +76,9 @@
     "vtex.store-link": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
     "vtex.css-handles": "0.x"
   },
   "credentialType": "absolute",
-  "policies": [
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "mdz06pnka0.execute-api.us-east-2.amazonaws.com",
-        "path": "*"
-      }
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "portal.vtexcommercestable.com.br",
-        "path": "/api/catalog/pvt/*"
-      }
-    },
-    {
-      "name": "colossus-fire-event"
-    },
-    {
-      "name": "colossus-write-logs"
-    }
-  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
