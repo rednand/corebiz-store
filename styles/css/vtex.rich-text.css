@@ -7,3 +7,60 @@
   font-weight: bold;
   height: 40px;
 }
+
+.heading--about-vision {
+  font-size: 3em;
+  color: #ffb100;
+}
+
+.paragraph--about-vision {
+  color: #fff;
+  max-width: 400px;
+  font-size: 2em;
+  line-height: 35px;
+  margin: 0;
+}
+
+.heading--about-values {
+  font-size: 3em;
+  margin: 0;
+  color: #ffb100;
+}
+
+.listItem--about-values {
+  color: #000;
+  max-width: 400px;
+  font-size: 2em;
+  max-width: 400px;
+}
+
+.heading--about-virtues::after{
+  content: " ";
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-color:#ffb100;
+}
+
+.heading--about-achievements-header {
+  margin-bottom: 1px;
+  max-width: 400px;
+  color: #fff;
+}
+
+.heading--about-achievements {
+  margin-bottom: 1px;
+  color: #ffb100;
+}
+
+.container--about-slider-title {
+  margin: 40px 0 0 0;
+}
+
+.container--about-achievements {
+  justify-content: center;
+  margin: 40px 0 0 0;
+  color: #ffb100;
+}

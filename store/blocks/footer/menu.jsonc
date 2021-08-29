@@ -138,5 +138,22 @@
       "blockClass": "footer-custom-text",
       "font": "t-mini" 
     } 
+  },
+  "rich-text#social-Networks": { 
+    "props": { 
+      "text": "Siga a gente", 
+      "blockClass": "footer-custom-title",
+      "font": "t-action--small" 
+    } 
+  },
+  "vtex.menu@2.x:menu#social-Networks": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"custom-item-menu"
+    },
+    "children": [
+      "rich-text#social-Networks",
+      "social-networks"
+    ]
   }
 }

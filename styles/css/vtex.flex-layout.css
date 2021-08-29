@@ -45,6 +45,52 @@
     background-color:black;
 }
 
+.flexCol--about-content {
+  padding: 70px;
+}
+
+.flexRow--about-call-to-action {
+  background-color: #000;
+  padding: 30px 0;
+}
+
+.flexRow--about-vision-container {
+  padding-top: 180px;
+  padding-left: 0;
+  padding-right: 30%;
+  background-color: #fff;
+}
+
+.flexRow--about-values-container {
+  padding-top: 0;
+  padding-left: 30%;
+  padding-bottom: 180px;
+  padding-right: 0;
+  background-color: #fff;
+}
+
+.flexRow--about-vision {
+  z-index: 1;
+  padding: 100px;
+  background-image: url(https://res.cloudinary.com/pedro-drosa/image/upload/v1630179185/business-people_bkmplt.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.flexRow--about-values {
+  padding: 100px;
+  padding-left: 640px;
+  margin-top: -240px;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+}
+
+.flexRow--about-achievements-container {
+  padding: 180px 0;
+  background-image: url(assets/images/bg-map.png);
+  background-size: cover;
+}
+
 @media (max-width: 600px) {
   .flexRow--product-main {
     max-width: 300px;
