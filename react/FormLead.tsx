@@ -5,8 +5,9 @@ import { Button, Container, Input, Error, Success } from './styles/formulario'
 interface Lead {
   id: string;
   nome: string;
-  sobrenome: string;
+  fone: string;
   email: string;
+  data?: string;
   prospecto: boolean;
 }
 
@@ -16,9 +17,11 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const [error, setError] = useState(false)
   const [sendSuccess, setSendSuccess] = useState(false)
   const [lead, setLead] = useState({
+    id: "",
     nome: "",
-    sobrenome: "",
+    fone: "",
     email: "",
+    data: "",
     prospecto: null,
   });
   
@@ -35,11 +38,11 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     }
     
     leadObj = {
-      prospecto: false,
+      id: lead.email,
       nome: lead.nome,
-      id: '9',
       email: lead.email,
-      sobrenome: lead.sobrenome,
+      fone: lead.fone,
+      prospecto: false,
     };
     sendLead(leadObj);
   };
@@ -47,9 +50,9 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const sendLead =  (lead: Lead) =>  {
     console.log(lead);
      http
-      .put('/users', lead).then((res) => {
+      .put('/create', lead).then((res) => {
         console.log(res)
-        setLead({ nome: "", sobrenome: "", email: "", prospecto: null });
+        setLead({ id: "", nome: "", fone: "", email: "", data:"", prospecto: null });
         setSendSuccess(true);
       })
   };
@@ -78,13 +81,13 @@ const FormLead: StorefrontFunctionComponent = () =>  {
           
           <Input
             type="text"
-            placeholder="Sobrenome"
-            value={lead.sobrenome}
+            placeholder="Telefone"
+            value={lead.fone}
             required
             onChange={({
               target: { value },
             }: React.ChangeEvent<HTMLInputElement>) =>
-            handleCreateNewLead("sobrenome", value)
+            handleCreateNewLead("fone", value)
             }
           />
           <Input
@@ -110,5 +113,12 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     </>
   )
 }
+
+FormLead.schema = {
+  title: "editor.FormLead.title",
+  description: "editor.FormLead.description",
+  type: "object",
+  properties: {},
+};
 
 export default FormLead

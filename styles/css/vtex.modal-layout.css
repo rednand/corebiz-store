@@ -1,0 +1,8 @@
+.paper--customModal {
+  width: 100%;
+  max-width: 550px;
+  padding: 40px;
+}
+.paper--customModal .closeButton{
+  color: #f1c233;
+}
