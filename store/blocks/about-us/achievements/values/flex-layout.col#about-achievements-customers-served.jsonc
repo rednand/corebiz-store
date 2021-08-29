@@ -1,0 +1,30 @@
+{
+  //customers-served
+    "flex-layout.col#about-achievements-customers-served": {
+      "children": [
+        "rich-text#about-title-achievements-customers-served",
+        "rich-text#about-content-achievements-customers-served"
+        ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "about-content"
+      }
+    },
+    
+    "rich-text#about-title-achievements-customers-served": {
+      "props": {
+        "text": "# +100",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass": "about-achievements"
+      }
+    },
+    
+    "rich-text#about-content-achievements-customers-served": {
+      "props": {
+        "text": "#### clientes ativos em diversos países",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER"
+      }
+    }
+}

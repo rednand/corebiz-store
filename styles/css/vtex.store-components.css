@@ -24,6 +24,18 @@
   color: white;
 }
 
+.imageElement--about-slider-img{
+  width: 7em;
+}
+
+.imageElement--about-us-image{
+  position: absolute;
+  overflow-x: hidden!important;
+  width: 60%;
+  top: 110px;
+  right: 0;
+}
+
 /* @media (max-width: 600px) {  
   .productImage--product-image {
     min-width: fit-content;

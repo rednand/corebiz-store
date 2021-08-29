@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#about-achievements-values": {
+    "children":[
+      "flex-layout.row#about-achievements-col"
+    ]
+  },
+  "flex-layout.row#about-achievements-col": {
+    "children":[
+      "flex-layout.col#about-achievements-collaborators",
+      "flex-layout.col#about-achievements-countries",
+      "flex-layout.col#about-achievements-customers-served"
+    ]
+  }
+}

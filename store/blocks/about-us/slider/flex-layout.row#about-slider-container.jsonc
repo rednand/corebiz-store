@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#about-slider-container": {
+    "children":[
+      "flex-layout.col#about-slider-content"
+    ]
+  },
+
+  "flex-layout.col#about-slider-content": {
+    "children": [
+      "rich-text#about-slider-title",
+      "slider-layout#about"
+      ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "about-content"
+    }
+  },
+
+  "rich-text#about-slider-title": {
+    "props": {
+      "text": "## alguns de nossos principais clientes",
+      "blockClass": "about-achievements-header"
+    }
+  }
+}

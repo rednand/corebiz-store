@@ -1,0 +1,61 @@
+{
+  "slider-layout#about": {
+    "children": [
+      "image#partner1",
+      "image#partner2",
+      "image#partner3",
+      "image#partner4",
+      "image#partner5",
+      "image#partner6"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "blockClass": "about-slider"
+    }
+  },
+  "image#partner1": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner01_xkqeh9.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  },
+  "image#partner2": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner02_cc44ei.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  },
+  "image#partner3": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner03_ujveen.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  },
+  "image#partner4": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner04_uflkjf.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  },
+  "image#partner5": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner05_i0l3yz.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  },
+  "image#partner6": {
+    "props": {
+      "src": "https://res.cloudinary.com/pedro-drosa/image/upload/v1630072068/partners/partner06_mgbtvt.svg",
+      "link":"https://www.hp.com/br-pt/shop/",
+      "blockClass": "about-slider-img"
+    }
+  }
+}
