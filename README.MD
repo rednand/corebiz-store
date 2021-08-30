@@ -25,16 +25,16 @@ A aplicação resultante ficou disponível na nuvem da VTEX, na loja HIRINGCODER
 ***
 ## Grupo
 
-  - Alcides Novais da Silva
-  - Antonio Augusto Fonseca
-  - Carlos Frederico Missick
-  - Djan Magno
-  - Douglas Figueiredo
-  - Edney Moita
-  - João Pedro M. Póvoa
-  - Pedro Mascarenhas
-  - Raniere Lourenço
-  - Renan de Aguiar Modesto
+  - [Alcides Novais da Silva](https://github.com/Alcidesns)
+  - [Antonio Augusto Fonseca](https://github.com/anfonseca44)
+  - [Carlos Frederico Missick](https://github.com/CarlosMissick)
+  - [Djan Magno](https://github.com/djanmagno)
+  - [Douglas Figueiredo](https://github.com/douglasfigueiredo)
+  - [Edney Moita](https://github.com/edneymoita)
+  - [João Pedro M. Póvoa](https://github.com/JPeeMP)
+  - [Pedro Mascarenhas](https://github.com/pedro-drosa)
+  - [Raniere Lourenço](https://github.com/raniereslourenco)
+  - [Renan de Aguiar Modesto](https://github.com/rednand)
 
 ***
 ## Endereço da Loja
