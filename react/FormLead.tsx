@@ -3,11 +3,9 @@ import http from './Clients/AWSClient'
 import { Button, Container, Input, Error, Success } from './styles/formulario'
 
 interface Lead {
-  id: string;
   nome: string;
   fone: string;
   email: string;
-  data?: string;
   prospecto: boolean;
 }
 
@@ -17,11 +15,9 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const [error, setError] = useState(false)
   const [sendSuccess, setSendSuccess] = useState(false)
   const [lead, setLead] = useState({
-    id: "",
     nome: "",
     fone: "",
     email: "",
-    data: "",
     prospecto: null,
   });
   
@@ -38,7 +34,6 @@ const FormLead: StorefrontFunctionComponent = () =>  {
     }
     
     leadObj = {
-      id: lead.email,
       nome: lead.nome,
       email: lead.email,
       fone: lead.fone,
@@ -50,9 +45,9 @@ const FormLead: StorefrontFunctionComponent = () =>  {
   const sendLead =  (lead: Lead) =>  {
     console.log(lead);
      http
-      .put('/create', lead).then((res) => {
+      .post('/create', lead).then((res) => {
         console.log(res)
-        setLead({ id: "", nome: "", fone: "", email: "", data:"", prospecto: null });
+        setLead({ nome: "", fone: "", email: "", prospecto: null });
         setSendSuccess(true);
       })
   };
