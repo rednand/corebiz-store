@@ -16,11 +16,21 @@
 
   "flex-layout.row#product-main": {
     "children":[
+      "flex-layout.col#product-image",
       "flex-layout.col#product-main"
     ],
     "props":{
       "blockClass": "product-main"
     }
+  },
+
+  "flex-layout.col#product-image": {
+    "props": {
+      "blockClass": "product-main"
+    },
+    "children": [
+      "product-images"
+    ]
   },
 
   "flex-layout.col#product-main": {
@@ -29,7 +39,6 @@
     },
     "children": [
       "vtex.store-components:product-name",
-      "product-images",
       "product-description",
       "product-identifier.product",
       "product-price#product-details",
@@ -62,7 +71,8 @@
 
   "product-description": {
     "props": {
-      "showTitle": false,
+      "showTitle": true,
+      "collapseContent": false,
       "blockClass": "description"
     }
   },
