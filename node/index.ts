@@ -4,6 +4,7 @@ import {  LRUCache, method, Service } from '@vtex/api'
 import { Clients } from './clients'
 import { getUsersById } from './middlewares/getUsersById'
 import { status } from './middlewares/status'
+import { prodlist } from './middlewares/prodlist'
 import { validate } from './middlewares/validate'
 import { updateClientAws } from './event/updateClientAws'
 
@@ -42,6 +43,9 @@ export default new Service({
     }),
     status: method({
       GET: [validate, status],
+    }),
+    prodlist: method({
+      GET: [prodlist]
     }),
   },
 
