@@ -58,34 +58,47 @@ Não há dependências externas ao VTEX IO
 
 Página inicial da loja, com banner para captação de leads e listagem de serviços disponibilizados na Corebiz Store.
 <br>
+<br>
 <img src='./assets/screenshots/home1.png'/>
 <br>
 <img src='./assets/screenshots/home2.png'/>
 <br>
 <img src='./assets/screenshots/home3.png'/>
 <br>
+<br>
 Página de produto, apresentando o produto escolhido e todos os detalhes.
+<br>
 <br>
 <img src='./assets/screenshots/produto.png'/>
 <br>
+<br>
 Modal para captação de dados de clientes (componente React integrado com a API da AWS)
+<br>
 <br>
 <img src='./assets/screenshots/leads.png'/>
 <br>
+<br>
 Página sobre a patrocinadora Corebiz, dando destaque a missão e valores da empresa.
+<br>
 <br>
 <img src='./assets/screenshots/sobre1.png'/>
 <br>
 <img src='./assets/screenshots/sobre2.png'/>
 <br>
+<br>
 Página apresentando os prospectos que estão cadastrados na AWS e que viraram clientes efetivos.
+<br>
 <br>
 <img src='./assets/screenshots/clientes.png'/>
 <br>
+<br>
 Carrinho de compras, apresentando os produtos selecionados
+<br>
 <br>
 <img src='./assets/screenshots/carrinho.png'/>
 <br>
+<br>
 Admin da loja com a inclusão das informações dos prospectos e clientes cadastrados na AWS (parte opcional do projeto)
+<br>
 <br>
 <img src='./assets/screenshots/admin.png'/>
