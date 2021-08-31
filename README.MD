@@ -116,3 +116,11 @@ Admin da loja com a inclusão das informações dos prospectos e clientes cadast
 <br>
 <br>
 <img src='./assets/screenshots/admin.png'/>
+
+***
+
+#### Observação
+
+Para esta implementação nosso grupo tentou duas abordagens para tentar solucionar a atualização dos dados na AWS:
+- Utilizar o master data da VTEX e tentar utilizar os serviços de triggers disponíveis na plataforma a fim de criar um evento no momento da compra de um cliente e criar uma rota http put para alterar a marcação de prospecto para cliente. Esta solução não foi possível, pois a versão disponível do masterdata na loja disponibilizada não disponibilizava tal função.
+- Criar um evento para ouvir todas as vezes que os clientes efetuassem uma compra e com isso poderíamos obter o orderId e conseqüentemente obter o email do usuário para alteração da marcação de cliente.
