@@ -1,11 +1,14 @@
-import type { ClientsConfig, ServiceContext, RecorderState } from '@vtex/api'
+import type { ClientsConfig, ServiceContext, RecorderState, EventContext } from '@vtex/api'
 import {  LRUCache, method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
 import { getUsersById } from './middlewares/getUsersById'
 import { status } from './middlewares/status'
+import { prodlist } from './middlewares/prodlist'
 import { validate } from './middlewares/validate'
-import { updateClientAws } from './event/updateClientAws'
+//import { allStates } from './middlewares/allStates'
+import { someStates } from './middlewares/someStates'
+import { getEmail } from './middlewares/getEmail'
 
 const TIMEOUT_MS = 800
 
@@ -30,7 +33,32 @@ declare global {
   type Context = ServiceContext<Clients, State>
 
   interface State extends RecorderState {
-    code: number
+    code: number,
+    email: string
+  }
+
+  interface OrderPlacedContext extends EventContext<Clients> {
+    body: {
+      domain: string
+      orderId: string
+      currentState: string
+      lastState: string
+      currentChangeDate: string
+      lastChangeDate: string
+    }
+  }
+
+
+  interface StatusChangeContext extends EventContext<Clients> {
+    body: {
+      email: string
+      domain: string
+      orderId: string
+      currentState: string
+      lastState: string
+      currentChangeDate: string
+      lastChangeDate: string
+    }
   }
 }
 
@@ -43,9 +71,12 @@ export default new Service({
     status: method({
       GET: [validate, status],
     }),
+    prodlist: method({
+      GET: [prodlist]
+    }),
   },
-
   events: {
-    updClientAws: updateClientAws
-  }    
+    someStates,
+    getEmail
+  },    
 })

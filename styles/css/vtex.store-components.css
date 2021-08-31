@@ -31,9 +31,10 @@
 .imageElement--about-us-image{
   position: absolute;
   overflow-x: hidden!important;
-  width: 60%;
+  width: auto;
   top: 110px;
   right: 0;
+  max-height: 530px;
 }
 
 @media(max-width: 1280px) {  

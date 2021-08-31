@@ -8,7 +8,9 @@
     "docs": "0.x",
     "assets": "0.x",
     "node": "6.x",
-    "react": "3.x"
+    "react": "3.x",
+    "admin": "0.x",
+    "messages": "1.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose",
@@ -16,6 +18,7 @@
     "credentialType": "absolute"
   },
   "dependencies": {
+    "vtex.orders-feed-example": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -59,11 +62,14 @@
     "vtex.modal-layout": "0.x"
   },
   "credentialType": "absolute",
+  "registries": [
+    "smartcheckout"
+  ],
   "policies": [
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "mdz06pnka0.execute-api.us-east-2.amazonaws.com",
+        "host": "n3me17g086.execute-api.us-east-2.amazonaws.com",
         "path": "*"
       }
     },

@@ -2,15 +2,12 @@ import React, { useState, useEffect } from 'react'
 import http from './Clients/AWSClient'
 import { Container, Card, Title, Info } from './styles/clientes'
 interface Lead {
-  id: string;
   nome: string;
-  fone: string;
-  email: string;
-  prospecto: boolean;
   data: string;
+  prospecto: boolean;
 }
  
-const CaptureLead: StorefrontFunctionComponent = () =>  {
+const Clientes: StorefrontFunctionComponent = () =>  {
   const [leads, setLeads] = useState<Lead[]>([])
   useEffect(() => {
     http
@@ -19,15 +16,19 @@ const CaptureLead: StorefrontFunctionComponent = () =>  {
       .then((data) => setLeads(data["Items"])
       )
     }, [])
-
   return(
     <Container>
       { 
         leads.map((lead)=>{
-          if(lead.prospecto == false){
+          if(lead.prospecto==false){
             return(<Card>
               <Title>{lead.nome}</Title>
-              <Info>Cliente desde: <span>{lead.data}</span></Info>
+              {
+                lead.data? 
+                  <Info>Cliente desde: <span>{lead.data}</span></Info>
+                :
+                  <></>
+              }
             </Card>)
           }
           return
@@ -37,4 +38,4 @@ const CaptureLead: StorefrontFunctionComponent = () =>  {
   )
 }
 
-export default CaptureLead
+export default Clientes
