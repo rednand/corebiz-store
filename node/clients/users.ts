@@ -5,7 +5,7 @@ import { ExternalClient } from '@vtex/api'
 export default class Users extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
     super(
-      'https://mdz06pnka0.execute-api.us-east-2.amazonaws.com',
+      'https://n3me17g086.execute-api.us-east-2.amazonaws.com',
       context,
       options
     )
@@ -13,5 +13,9 @@ export default class Users extends ExternalClient {
 
   public async getStatus(id: string): Promise<string> {
     return this.http.get(id)
+  }
+
+  public async putEmail(email: string): Promise<string> {
+    return this.http.put(email)
   }
 }
