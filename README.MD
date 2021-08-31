@@ -54,6 +54,20 @@ Não há dependências externas ao VTEX IO
 
 ***
 
+## Rotas AWS
+
+POST https://n3me17g086.execute-api.us-east-2.amazonaws.com/create
+
+DELETE https://n3me17g086.execute-api.us-east-2.amazonaws.com/delete/{email}
+
+GET https://n3me17g086.execute-api.us-east-2.amazonaws.com/list
+
+GET https://n3me17g086.execute-api.us-east-2.amazonaws.com/list/{email}
+
+PUT https://n3me17g086.execute-api.us-east-2.amazonaws.com/update
+
+***
+
 ## Loja montada
 
 Página inicial da loja, com banner para captação de leads e listagem de serviços disponibilizados na Corebiz Store.
