@@ -8,6 +8,7 @@ import { prodlist } from './middlewares/prodlist'
 import { validate } from './middlewares/validate'
 //import { allStates } from './middlewares/allStates'
 import { someStates } from './middlewares/someStates'
+import { getEmail } from './middlewares/getEmail'
 
 const TIMEOUT_MS = 800
 
@@ -32,8 +33,21 @@ declare global {
   type Context = ServiceContext<Clients, State>
 
   interface State extends RecorderState {
-    code: number
+    code: number,
+    email: string
   }
+
+  interface OrderPlacedContext extends EventContext<Clients> {
+    body: {
+      domain: string
+      orderId: string
+      currentState: string
+      lastState: string
+      currentChangeDate: string
+      lastChangeDate: string
+    }
+  }
+
 
   interface StatusChangeContext extends EventContext<Clients> {
     body: {
@@ -63,5 +77,6 @@ export default new Service({
   },
   events: {
     someStates,
+    getEmail
   },    
 })
