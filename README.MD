@@ -11,7 +11,7 @@ Desenvolvido como parte do treinamento VTEX - Hiring Coders 2021.
 ***
 ## Regras do desafio
 
-O desafio consistia em montar uma loja usando a temática da Corebiz e os pontos abaixo eram fundamentais no projeto:  :
+O desafio consistia em montar uma loja usando a temática da Corebiz e os pontos abaixo eram fundamentais no projeto:
 
 - Manutenção do estilo do site original, trazendo identidade da Corebiz para a loja.<img src='./assets/images/tick.png' alt="Feito!" width="auto" height="30"/>
 - Destaque para a missão e os valores da empresa.<img src='./assets/images/tick.png' alt="Feito!" width="auto" height="30"/>
