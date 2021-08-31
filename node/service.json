@@ -8,7 +8,15 @@
   "events": {
     "someStates": {
       "sender": "vtex.orders-broadcast",
-      "topics": ["order-created"]
+      "topics": [
+        "order-created"
+      ]
+    },
+    "getEmail": {
+      "sender": "vtex.orders-broadcast",
+      "topics": [
+        "order-created"
+      ]
     }
   },
   "routes": {
